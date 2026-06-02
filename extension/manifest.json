@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "AI Web Analyzer",
+  "version": "1.0",
+  "description": "Analyze any webpage using LangChain, FastAPI and Groq",
+  "permissions": ["tabs", "activeTab"],
+  "host_permissions": ["http://127.0.0.1:8000/*"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "AI Web Analyzer"
+  }
+}
